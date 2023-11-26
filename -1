@@ -13,7 +13,7 @@ foreach ($tokens as $token) {
 
        switch ($id) {
            case T_DOC_COMMENT:
-               // нет действий для комментариев
+               // нет действий для комментариев.
                break;
 
            default:
