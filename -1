@@ -1,6 +1,6 @@
 #лексема 1 bukva поиск                         
 <?php       
-$source = file_get_contents('example.php'); 
+$source = file_get_contents('example.php');  
 $tokens = token_get_all($source);
  
 foreach ($tokens as $token) {
