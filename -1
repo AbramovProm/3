@@ -6,7 +6,7 @@ foreach ($tokens as $token) {
    if (is_string($token)) { 
        // простая однабуквенная лексема
        echo $token;
-   } else {
+   } else { 
        // массив с лексемой
        list($id, $text) = $token;
 
